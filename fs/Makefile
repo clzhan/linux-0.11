@@ -1,9 +1,9 @@
 AR	=gar
-AS	=gas
+AS	=as
 CC	=gcc
-LD	=gld
-CFLAGS	=-Wall -O -fstrength-reduce -fcombine-regs -fomit-frame-pointer \
-	-mstring-insns -nostdinc -I../include
+LD	=ld
+CFLAGS	=-Wall -fstrength-reduce -fomit-frame-pointer \
+	-nostdinc -I../include
 CPP	=gcc -E -nostdinc -I../include
 
 .c.s:
